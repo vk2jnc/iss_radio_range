@@ -35,7 +35,7 @@ def haversine(lon1, lat1, lon2, lat2):
     r = 6371 # Radius of earth in kilometers. Use 3956 for miles
     return c * r
 
-center_point = [{'lat': -35.117275, 'lng': 147.356522}]
+center_point = [{'lat': "INSERT YOUR LAT", 'lng': "INSERT YOUR LONG"}]
 test_point = [{'lat': iss_lat, 'lng': iss_long}]
 
 lat1 = center_point[0]['lat']
